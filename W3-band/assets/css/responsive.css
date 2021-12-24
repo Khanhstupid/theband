@@ -1,0 +1,110 @@
+/* PC */
+@media(min-width:1024px)
+{
+
+}
+/* mobile&tablet */
+@media(max-width:1024px){
+    .place-buy-btn{
+        padding: 15px 16px;
+    }
+    .contact-infor{
+        line-height: 1.6;
+    }
+    .contact-form .form-control{
+        padding: 15px;
+    }
+    #footer .icon-social a{
+        font-size: 40px;
+        padding: 0 8px;
+    }
+    #footer .copyright {
+        padding: 12px 0;
+        display: block;
+    }
+}
+/* Tablet */
+@media(min-width:740px) and (max-width:1023px){
+    #slider .text-content{
+        bottom: 15px;
+    }
+    #slider .text-description{
+        font-size: 15px;
+    }
+    #slider .text-heading{
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+}
+/* Mobile */
+@media(max-width:740px){
+    .s-full-width,
+    .s-col-full{  /* dùng chung*/
+        width: 100%;
+    }   
+    .s-mt-8{
+        margin-top: 8px;
+    }
+     #header{
+        overflow: hidden;
+    }
+    #header .search-btn{
+        display: none;
+    }
+    #header .search-btn{
+        display: none;
+    }
+    #header .mobile-menu
+    {
+        display: block;
+    }
+    #nav{
+           display: block;
+    }
+    #nav .subnav{
+        position: initial;
+        background-color: #333;
+
+    }
+    #nav .subnav a{
+        color: white;
+        padding: 5px 41px;
+    }
+    #nav> li{
+        display: block;
+    }
+   
+    #nav >li:first-child{
+        display: inline-block;
+    }
+    #slider .text-content{
+        bottom: 10px;
+    }
+    #slider .text-description{
+        font-size: 10px;
+    }
+    #slider .text-heading{
+        font-size: 15px;
+        margin-bottom: 5px;
+    }
+    .member-item .member-avatar{
+        width: 60% !important;
+        height: 60% !important;
+    }
+   
+    .contact-form{
+        margin-top: 32px;
+    }
+  
+}
+/* #nav li i {
+       
+       text-decoration: none;
+       line-height: 46px;
+       padding: 0px 24px;
+       display: block; 
+       color: #fff;
+}
+#nav li i:hover{
+    color: #000;
+    background-color: #ccc  ; */
